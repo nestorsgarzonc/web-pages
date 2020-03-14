@@ -1,0 +1,12 @@
+.cuadro {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 50px;
+    /*
+    transform: rotate(30deg);
+    transform: scale(1, 0.5);
+    transform: translate(200px, 100px);
+    */
+    transform: skew(-20deg, 0) translate(10px, -50px), rotate(-20deg);
+}
