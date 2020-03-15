@@ -1,14 +1,33 @@
+@keyframes entrar-salir {
+    0% {
+        background-color: aqua;
+    }
+    25% {
+        background-color: blue;
+        width: 400px;
+    }
+    50% {
+        background-color: blueviolet;
+        height: 400px;
+    }
+    75% {
+        background-color: purple;
+    }
+    100% {
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+    }
+}
+
 .cuadro {
     width: 200px;
     height: 200px;
     background-color: blue;
     margin: 50px;
-    transition: all 1s ease-in;
-    transition-delay: 500ms;
-}
-
-.cuadro:hover {
-    background-color: red;
-    transform: scale(2, 3);
-    /* transform: rotate(50deg); */
+    /* animation-name: entrar-salir;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite; */
+    animation: entrar-salir 2s ease;
 }
