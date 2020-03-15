@@ -1,0 +1,14 @@
+.cuadro {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px;
+    transition: all 1s ease-in;
+    transition-delay: 500ms;
+}
+
+.cuadro:hover {
+    background-color: red;
+    transform: scale(2, 3);
+    /* transform: rotate(50deg); */
+}
